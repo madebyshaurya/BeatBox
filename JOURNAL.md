@@ -1,7 +1,7 @@
 ---
 title: "BeatBox"
 author: "Shaurya Gupta"
-description: "My own twist and clone of the Spotify Car Thing player."
+description: "Voice controlled Spotify Car Thing Clone"
 created_at: "2025-06-06"
 ---
 
@@ -15,3 +15,12 @@ After a bit of thought I decided to add a neopixel in order to light up when use
 <img width="751" alt="image" src="https://github.com/user-attachments/assets/24a61b93-3f93-4302-b1d0-439f16d23418" />
 
 **Ended, 12:13 PM -> Total Time: 3 hours 12 min**
+
+## Sunday June 8th, 5:30 PM : Finishing schematic
+ Today my goal was to finish a schematic because currently it was not fully finished because I needed a power source and I need to add footprints so that is my goal for today. So currently I had the ESP32, a screen, a microphone and an LED. The screen I first have to decide if I wanted 2.4 inch or 2.8 inch and I went with the 2.8 inch just because it's going to be easier to display the artist names and album art. So then I took a while to fix up some parts of the schematic and use correct symbols and this is what I have:
+ 
+<img width="836" alt="image" src="https://github.com/user-attachments/assets/1d0a71f7-6680-497c-9daa-2d660cc78bc2" />
+
+Next, to make this device portable I wanted to have a rechargeable battery using the TP4056 module. 
+
+**Ended, 6:30 PM -> Total Time: 1h**
