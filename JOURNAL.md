@@ -24,3 +24,20 @@ After a bit of thought I decided to add a neopixel in order to light up when use
 Next, to make this device portable I wanted to have a rechargeable battery using the TP4056 module. 
 
 **Ended, 6:30 PM -> Total Time: 1h**
+
+## Tuesday June 10th, 4:00 PM : Adding Power Source
+My goal for today is to add a 18650 lithium ion battery w/ tp4056 module to recharge it. First I had to set up a 5V system which made it so I can regulate the 5V input to 3v3 for all other components except for the neopixel which can use 5v.
+
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/f0b486ac-93e3-4d69-9942-80b84f553de3" />
+
+This took a while since I also resolved all the ERC (Electric Rules Checker) Errors.
+
+Next up, I implemented the TP4056 module along with a lithium ion battery, this will make it so you can charge this device.
+
+<img width="1094" alt="image" src="https://github.com/user-attachments/assets/f13f05e7-67ec-4adc-8295-560aa6263afb" />
+
+But after reviewing Ryan Green on Slack found some issues and I fixed them and it resulted in the following schematic. This one uses TP4056 to receive charge then it gives it to AMS to regulate it and it also stores it in the battery cell.
+
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/b52c717f-6b39-4999-8e02-d95494410204" />
+
+**Ended, 8:05 PM -> Total Time: 4 hours 6 min**
