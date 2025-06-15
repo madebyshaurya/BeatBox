@@ -36,8 +36,39 @@ Next up, I implemented the TP4056 module along with a lithium ion battery, this 
 
 <img width="1094" alt="image" src="https://github.com/user-attachments/assets/f13f05e7-67ec-4adc-8295-560aa6263afb" />
 
-But after reviewing Ryan Green on Slack found some issues and I fixed them and it resulted in the following schematic. This one uses TP4056 to receive charge then it gives it to AMS to regulate it and it also stores it in the battery cell.
+But after reviewing, Ryan Green on Slack found some issues and I fixed them and it resulted in the following schematic. This one uses TP4056 to receive charge then it gives it to AMS to regulate it and it also stores it in the battery cell.
 
 <img width="937" alt="image" src="https://github.com/user-attachments/assets/b52c717f-6b39-4999-8e02-d95494410204" />
 
 **Ended, 8:05 PM -> Total Time: 4 hours 6 min**
+
+## Saturday June 14th, 11:30 PM : Assigning Footprints
+
+Now it was time to assign footprints, I found many in KiCad and online and this is how it looked like. I found some for print right in KiCad and some might do a little bit of digging online and to like find them especially for the TP4056.
+
+<img width="1285" alt="image" src="https://github.com/user-attachments/assets/aae2e670-5eba-4622-a185-3da40e09e01e" />
+
+ I couldn't find a footprint for the microphone, which is the only one that's empty for now. And so I thought I should just make my own.
+
+<img width="745" alt="image" src="https://github.com/user-attachments/assets/45f75fff-16e0-442d-a4d0-04e7448ed1bd" />
+
+**Ended, 12:30 PM -> Total Time: 1h**
+
+## Saturday June 14th, 7:30 PM : Laying out base of PCB
+
+Next it was time for the PCB, finally! I had a little bit of idea of the layout I was going for, compact, yet sleek and an item that looks great on your desk. So I just moved and placed the components roughly:
+
+<img width="872" alt="image" src="https://github.com/user-attachments/assets/a2aa642d-0aeb-4a01-bb61-92015904b170" />
+
+Then I began attaching a 3D model to each component which was missing one so that it will be useful for CAD and for accurate PCB representation in the render. Some of the components which didn't have 3D models included the display, microphone, TP4056, etc.
+
+After a aligning the models and online digging this is the layout I liked.
+
+<img width="712" alt="image" src="https://github.com/user-attachments/assets/08012ee1-263d-4b9e-b95a-517805b4f763" />
+
+<img width="751" alt="image" src="https://github.com/user-attachments/assets/17d98111-1283-415e-b02d-e758dd00929f" />
+
+So the idea was that I'd have a cutouts in the case for the usb c port, mic (like many little dots), etc. It would make a balance between the hidden and transparent areas.
+
+**Ended, 8:30 PM -> Total Time: 1h**
+
