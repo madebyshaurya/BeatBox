@@ -72,3 +72,22 @@ So the idea was that I'd have a cutouts in the case for the usb c port, mic (lik
 
 **Ended, 8:30 PM -> Total Time: 1h**
 
+## June 15th, 10:31 AM
+Now I looked over the PCB design again and found some issues like the microphone over the charging port wasn't a good idea since the pins were going through it. So I revised the design another time:
+
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/47e44009-9866-4a4a-86f1-2ae87037b255" />
+
+Now that the layout looked good, I now started to begin tracing. I have 57 unrouted lines, this was my biggest harware project yet, so I knew this wasn't going to be easy.
+
+After about 1 hour I had done it, I wired all the compoenents and fixed all the DRC errors as well. And this is how it looked:
+
+<img width="637" alt="image" src="https://github.com/user-attachments/assets/b0bc69f9-d47b-47a4-afcb-8cf9a2d28fc8" />
+
+![image](https://github.com/user-attachments/assets/6a729174-c926-4182-9651-f4253f594fde)
+
+![image](https://github.com/user-attachments/assets/94dc6f82-92a6-44b5-b105-358156239061)
+
+**Ended 12:00 PM -> Total Time: 1h 30min**
+
+
+
