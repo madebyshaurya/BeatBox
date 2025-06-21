@@ -89,5 +89,15 @@ After about 1 hour I had done it, I wired all the compoenents and fixed all the 
 
 **Ended 12:00 PM -> Total Time: 1h 30min**
 
+## June 21, 3:30 PM
+I thought my PCB was ready to go but Marcus on Slack (https://hackclub.slack.com/archives/C056AMWSFKJ/p1750184017411649?thread_ts=1750006890.268569&cid=C056AMWSFKJ) suggested I should put the ESP's antenna over the board and so then I had to spend some time moving the board and then rerouting the whole thing. I then also resolved a couple DRC errors I came upon.
 
+This is the 3D render:
 
+<img width="747" alt="image" src="https://github.com/user-attachments/assets/b85e284c-b363-4059-8eea-e781b4d90a4b" />
+
+Next up was making the case, I am not great and CAD design but I will give this my best shot. I will use Fusion360 for this. 
+
+I wanted to go for a desk friendly case so that this device could be at an angle and have a cool design on the back and be rounded everywhere. It would have cutouts for speakers, charging, screen, etc.
+
+**Total Time: 1h 30 min**
